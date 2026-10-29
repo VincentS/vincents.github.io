@@ -3,7 +3,7 @@ export const CONFIG = {
   // Site Settings
   // ---------------------------------------------------------------------------
   site: {
-    url: "https://vincentschwarzer.com",
+    url: "https://www.vincentschwarzer.com",
     locale: "en_US",
   },
 
