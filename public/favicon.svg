@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="8" fill="#18181b"/>
-  <text x="16" y="22" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="white" text-anchor="middle">A</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="209 201 828 828" fill="none">
+  <title>VS monogram</title>
+  <g fill="#191919">
+    <path d="M249 430H364C378 430 390 438 398 453L513 660L631 483C655 448 687 430 729 430H997L925 510H742C720 510 702 520 689 540L529 789C523 799 516 804 506 804H478C467 804 462 797 455 785Z"/>
+    <path d="M708 558C716 569 728 575 744 575H846C908 575 958 623 958 685C958 750 900 803 822 803H550L596 746C608 730 625 722 647 722H814C838 722 855 708 855 687C855 667 839 652 815 652H744C714 652 688 641 666 621Z"/>
+  </g>
 </svg>
