@@ -16,7 +16,7 @@ import { Azure } from "@/components/ui/svgs/azure";
 export const DATA = {
   name: "Vincent Schwarzer - Software Engineer",
   initials: "VS",
-  url: "https://www.vincentschwarzer.com",
+  url: "https://vincentschwarzer.com",
   location: "Berlin, Germany",
   description:
     "Software engineer with 10+ years of experience in platform engineering, site reliability and observability.",
