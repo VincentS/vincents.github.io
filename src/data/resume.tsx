@@ -107,7 +107,8 @@ export const DATA = {
       badges: [],
       location: "Berlin, Germany",
       title: "Senior Site Reliability Engineer",
-      logoUrl: "https://www.google.com/s2/favicons?domain=metro.digital&sz=128",
+      logoUrl: "/metro-digital.svg",
+      darkLogoUrl: "/metro-digital-dark.svg",
       start: "May 2019",
       end: "August 2021",
       description:
@@ -119,7 +120,7 @@ export const DATA = {
       badges: [],
       location: "Berlin,Germany",
       title: "Cloud Architect",
-      logoUrl: "",
+      logoUrl: "/endocode.svg",
       start: "January 2017",
       end: "April 2019",
       description:
