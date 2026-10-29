@@ -1,5 +1,6 @@
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
 import { DATA } from "@/data/resume";
+import Markdown from "react-markdown";
 
 export default function ContactSection() {
   return (
@@ -23,7 +24,7 @@ export default function ContactSection() {
           {DATA.sections.contact.heading}
         </h2>
         <p className="mx-auto max-w-lg text-muted-foreground text-balance">
-          {DATA.sections.contact.text}
+          <Markdown>{DATA.sections.contact.text}</Markdown>
         </p>
       </div>
     </div>
