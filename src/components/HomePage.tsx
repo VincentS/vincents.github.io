@@ -9,7 +9,7 @@ import HackathonsSection from "@/components/section/hackathons-section";
 import PhotosSection from "@/components/section/photos-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, MapPin } from "lucide-react";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -150,11 +150,15 @@ export default function HomePage() {
                 text={DATA.description}
               />
             </div>
-            <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2">
+            <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2 flex shrink-0 flex-col items-center gap-3 self-start">
               <Avatar className="size-24 md:size-32 border rounded-full shadow-lg ring-4 ring-muted">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
+              <p className="flex items-center gap-1 text-sm text-muted-foreground">
+                <MapPin className="size-3.5" aria-hidden="true" />
+                {DATA.location}
+              </p>
             </BlurFade>
           </div>
         </div>
